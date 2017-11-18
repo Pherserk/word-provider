@@ -6,7 +6,7 @@ use Pherserk\Language\model\LanguageInterface;
 use Pherserk\WordExtractor\model\UnclassifiedWord;
 use Pherserk\WordProvider\model\ClassifiedWord;
 
-interface WordProiderInterface
+interface WordProviderInterface
 {
      /**
       * @param UnclassifiedWord[] $words
