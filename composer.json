@@ -1,0 +1,15 @@
+{
+    "name": "pherserk/word-provider",
+    "minimum-stability": "dev", 
+    "require": {
+        "php": ">=7.0",
+	"pherserk/language": "dev-master",
+        "pherserk/word": "dev-master",
+	"pherserk/word-extractor": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pherserk\\WordProvider\\" : "src/"
+        }
+    }
+}
