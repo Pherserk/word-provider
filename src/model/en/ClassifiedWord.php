@@ -2,6 +2,7 @@
 
 namespace Pherserk\WordProvider\model\en;
 
+use Pherserk\Language\model\LanguageInterface;
 use Pherserk\WordProvider\model\ClassifiedWord as BaseClassifiedWord;
 
 class ClassifiedWord extends BaseClassifiedWord
