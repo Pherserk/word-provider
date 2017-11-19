@@ -4,7 +4,7 @@ namespace Pherserk\WordProvider\model;
 
 use Pherserk\Word\model\WordInterface;
 
-abstract class ClassifiedWord implements WordInterface;
+abstract class ClassifiedWord implements WordInterface
 {
    private $word;
    
@@ -21,7 +21,7 @@ abstract class ClassifiedWord implements WordInterface;
        return $this->word;
    }
   
-   public function getType(): string
+   public function getType() : string
    {
        return $this->type;
    }
