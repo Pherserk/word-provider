@@ -1,6 +1,6 @@
 <?php
 
-namespace Pherserk\WordProvider\model\it;
+namespace Pherserk\WordProvider\model\en;
 
 use Pherserk\WordProvider\model\ClassifiedWord as BaseClassifiedWord;
 
