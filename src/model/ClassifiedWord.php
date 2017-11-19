@@ -15,8 +15,8 @@ abstract class ClassifiedWord implements WordInterface
 
    public function __construct(string $word, LanguageInterface $language, string $type)
    {
-       if ($language->getCode() != $self::LANGUAGE_CODE) {
-           throw new \InvalidArgumentException('Expected '  . $self::LANGUAGE_CODE . ' '  $language->getCode() . ' given');
+       if ($language->getIso639Alpha2Code() != $self::LANGUAGE_CODE) {
+           throw new \InvalidArgumentException('Expected '  . $self::LANGUAGE_CODE . ' ' .  $language->getIso639Alpha2Code() . ' given');
        }
        
        $this->word = $word;
