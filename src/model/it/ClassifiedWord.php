@@ -7,7 +7,7 @@ use Pherserk\WordProvider\model\ClassifiedWord as BaseClassifiedWord;
 
 class ClassifiedWord extends BaseClassifiedWord
 {
-    const LANGUAGE_CODE = 'IT';
+    const LANGUAGE_CODE = 'it';
 
     const NAME_TYPE = 'name';
     const VERB_TYPE = 'verb';
